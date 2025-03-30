@@ -1,7 +1,7 @@
 # Dockerfile for is-website-vulnerable
 # License: Apache 2.0
 # © Liran Tal 2019
-FROM node:12-alpine
+FROM node:23.10.0-alpine
 LABEL org.label-schema.name="is-website-vulnerable" \
     org.label-schema.description="is-website-vulnerable Docker image" \
     org.label-schema.url="https://www.npmjs.com/package/is-website-vulnerable" \
